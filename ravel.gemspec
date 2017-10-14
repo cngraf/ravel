@@ -5,13 +5,14 @@ require 'ravel/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "ravel"
+  spec.license       = "MIT"
   spec.version       = Ravel::VERSION
   spec.authors       = ["Chris Graf"]
   spec.email         = ["christopher.n.graf@gmail.com"]
 
   spec.summary       = %q{Convert a collection of routes into an API DSL.}
   # spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/cngraf/ravel"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
